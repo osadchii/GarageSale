@@ -21,6 +21,9 @@ obj/
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Configuration files
+AppSettings.Local.json
+
 # AWS User-specific
 .idea/**/aws.xml
 

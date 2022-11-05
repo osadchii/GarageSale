@@ -1,12 +1,46 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7440E9DB-68BA-4C28-ABF0-11B544D8AB65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{52574004-5B1D-4A5F-BF4C-AA6B146142EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35171B7C-C11D-4019-ABE8-F05984863CA7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{FD5B849B-203A-40EE-9D86-07557C9251A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7AFB8118-5877-45A4-A338-EC9D2B9FAB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageSale.Data", "Sources\GarageSale.Data\GarageSale.Data.csproj", "{E9775311-6E0B-45F6-B7FE-EF6A43E3A449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesEngine.Infrastructure", "Sources\SalesEngine.Infrastructure\SalesEngine.Infrastructure.csproj", "{2684C0B6-0760-44EF-A218-DFEE0250A4F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageSale.ManagementBot", "Sources\GarageSale.ManagementBot\GarageSale.ManagementBot.csproj", "{0B38E7E3-FC83-4720-A499-2247154AA977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageSale.RetailerBot", "Sources\GarageSale.RetailerBot\GarageSale.RetailerBot.csproj", "{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9775311-6E0B-45F6-B7FE-EF6A43E3A449} = {FD5B849B-203A-40EE-9D86-07557C9251A5}
+		{2684C0B6-0760-44EF-A218-DFEE0250A4F2} = {FD5B849B-203A-40EE-9D86-07557C9251A5}
+		{0B38E7E3-FC83-4720-A499-2247154AA977} = {FD5B849B-203A-40EE-9D86-07557C9251A5}
+		{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38} = {FD5B849B-203A-40EE-9D86-07557C9251A5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9775311-6E0B-45F6-B7FE-EF6A43E3A449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9775311-6E0B-45F6-B7FE-EF6A43E3A449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9775311-6E0B-45F6-B7FE-EF6A43E3A449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9775311-6E0B-45F6-B7FE-EF6A43E3A449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2684C0B6-0760-44EF-A218-DFEE0250A4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2684C0B6-0760-44EF-A218-DFEE0250A4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2684C0B6-0760-44EF-A218-DFEE0250A4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2684C0B6-0760-44EF-A218-DFEE0250A4F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B38E7E3-FC83-4720-A499-2247154AA977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B38E7E3-FC83-4720-A499-2247154AA977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B38E7E3-FC83-4720-A499-2247154AA977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B38E7E3-FC83-4720-A499-2247154AA977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A59961-96E7-4D3A-AC2F-EA1BC0CEEB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
